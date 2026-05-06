@@ -1,0 +1,17 @@
+{
+  "repo": "cobalt-ops-inventory-meter",
+  "thresholds": {
+    "signal": 2,
+    "slack": 1,
+    "confidence": 2,
+    "drag": 4,
+    "ship": 199,
+    "watch": 101
+  },
+  "terms": [
+    "dry-run spread",
+    "rename risk",
+    "operator cost",
+    "idempotence"
+  ]
+}

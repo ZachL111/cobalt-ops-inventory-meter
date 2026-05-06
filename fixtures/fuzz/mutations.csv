@@ -1,0 +1,97 @@
+id,parent,focus,signal,slack,drag,confidence,score,lane,kind,invariant,mutation
+m001,g001,dry-run spread,110,56,25,79,334,ship,baseline,monotonic-signal,raise-signal
+m002,g002,rename risk,116,26,38,101,308,ship,edge,drag-penalty,drop-slack
+m003,g003,operator cost,39,30,11,85,234,ship,recovery,confidence-floor,raise-drag
+m004,g004,idempotence,92,29,10,57,287,ship,negative,lane-boundary,lower-confidence
+m005,g005,dry-run spread,43,31,35,67,111,watch,baseline,monotonic-signal,raise-signal
+m006,g006,rename risk,97,23,28,70,245,ship,edge,drag-penalty,drop-slack
+m007,g007,operator cost,88,73,12,76,353,ship,recovery,confidence-floor,raise-drag
+m008,g008,idempotence,43,60,37,28,54,hold,negative,lane-boundary,lower-confidence
+m009,g009,dry-run spread,77,56,13,28,214,ship,baseline,monotonic-signal,raise-signal
+m010,g010,rename risk,84,11,44,69,141,watch,edge,drag-penalty,drop-slack
+m011,g011,operator cost,51,77,47,94,179,watch,recovery,confidence-floor,raise-drag
+m012,g012,idempotence,38,72,19,55,182,watch,negative,lane-boundary,lower-confidence
+m013,g013,dry-run spread,88,37,37,59,183,watch,baseline,monotonic-signal,raise-signal
+m014,g014,rename risk,103,46,20,102,376,ship,edge,drag-penalty,drop-slack
+m015,g015,operator cost,31,35,20,85,187,watch,recovery,confidence-floor,raise-drag
+m016,g016,idempotence,86,26,32,68,206,ship,negative,lane-boundary,lower-confidence
+m017,g017,dry-run spread,82,24,22,41,182,watch,baseline,monotonic-signal,raise-signal
+m018,g018,rename risk,114,50,19,68,338,ship,edge,drag-penalty,drop-slack
+m019,g019,operator cost,50,47,47,43,45,hold,recovery,confidence-floor,raise-drag
+m020,g020,idempotence,110,42,31,65,268,ship,negative,lane-boundary,lower-confidence
+m021,g021,dry-run spread,108,77,28,100,381,ship,baseline,monotonic-signal,raise-signal
+m022,g022,rename risk,53,16,28,84,178,watch,edge,drag-penalty,drop-slack
+m023,g023,operator cost,78,40,36,69,190,watch,recovery,confidence-floor,raise-drag
+m024,g024,idempotence,94,14,10,53,268,ship,negative,lane-boundary,lower-confidence
+m025,g025,dry-run spread,114,69,23,69,343,ship,baseline,monotonic-signal,raise-signal
+m026,g026,rename risk,70,57,31,75,223,ship,edge,drag-penalty,drop-slack
+m027,g027,operator cost,56,35,44,40,51,hold,recovery,confidence-floor,raise-drag
+m028,g028,idempotence,53,56,20,14,110,watch,negative,lane-boundary,lower-confidence
+m029,g029,dry-run spread,64,34,13,68,246,ship,baseline,monotonic-signal,raise-signal
+m030,g030,rename risk,59,50,32,93,226,ship,edge,drag-penalty,drop-slack
+m031,g031,operator cost,109,42,29,67,278,ship,recovery,confidence-floor,raise-drag
+m032,g032,idempotence,54,35,40,45,73,hold,negative,lane-boundary,lower-confidence
+m033,g033,dry-run spread,78,34,29,101,276,ship,baseline,monotonic-signal,raise-signal
+m034,g034,rename risk,80,25,25,84,253,ship,edge,drag-penalty,drop-slack
+m035,g035,operator cost,45,39,11,80,245,ship,recovery,confidence-floor,raise-drag
+m036,g036,idempotence,75,8,22,27,124,watch,negative,lane-boundary,lower-confidence
+m037,g037,dry-run spread,59,65,5,67,297,ship,baseline,monotonic-signal,raise-signal
+m038,g038,rename risk,41,50,40,42,56,hold,edge,drag-penalty,drop-slack
+m039,g039,operator cost,84,27,24,77,253,ship,recovery,confidence-floor,raise-drag
+m040,g040,idempotence,109,12,7,86,374,ship,negative,lane-boundary,lower-confidence
+m041,g041,dry-run spread,46,77,4,83,319,ship,baseline,monotonic-signal,raise-signal
+m042,g042,rename risk,92,31,25,68,251,ship,edge,drag-penalty,drop-slack
+m043,g043,operator cost,79,62,23,65,258,ship,recovery,confidence-floor,raise-drag
+m044,g044,idempotence,32,40,13,55,162,watch,negative,lane-boundary,lower-confidence
+m045,g045,dry-run spread,65,31,13,74,257,ship,baseline,monotonic-signal,raise-signal
+m046,g046,rename risk,72,18,14,39,184,watch,edge,drag-penalty,drop-slack
+m047,g047,operator cost,39,66,44,26,20,hold,recovery,confidence-floor,raise-drag
+m048,g048,idempotence,114,52,8,54,356,ship,negative,lane-boundary,lower-confidence
+m049,g049,dry-run spread,76,47,16,92,319,ship,baseline,monotonic-signal,raise-signal
+m050,g050,rename risk,91,1,22,66,227,ship,edge,drag-penalty,drop-slack
+m051,g051,operator cost,63,32,12,57,224,ship,recovery,confidence-floor,raise-drag
+m052,g052,idempotence,52,45,40,87,163,watch,negative,lane-boundary,lower-confidence
+m053,g053,dry-run spread,103,19,17,83,323,ship,baseline,monotonic-signal,raise-signal
+m054,g054,rename risk,31,63,7,79,255,ship,edge,drag-penalty,drop-slack
+m055,g055,operator cost,47,73,32,39,117,watch,recovery,confidence-floor,raise-drag
+m056,g056,idempotence,58,40,14,53,206,ship,negative,lane-boundary,lower-confidence
+m057,g057,dry-run spread,120,61,10,41,343,ship,baseline,monotonic-signal,raise-signal
+m058,g058,rename risk,97,28,31,76,250,ship,edge,drag-penalty,drop-slack
+m059,g059,operator cost,94,66,14,98,394,ship,recovery,confidence-floor,raise-drag
+m060,g060,idempotence,96,47,32,69,249,ship,negative,lane-boundary,lower-confidence
+m061,g061,dry-run spread,109,40,25,67,292,ship,baseline,monotonic-signal,raise-signal
+m062,g062,rename risk,62,28,44,64,104,watch,edge,drag-penalty,drop-slack
+m063,g063,operator cost,95,41,41,67,201,ship,recovery,confidence-floor,raise-drag
+m064,g064,idempotence,110,44,31,60,260,ship,negative,lane-boundary,lower-confidence
+m065,g065,dry-run spread,42,13,10,38,133,watch,baseline,monotonic-signal,raise-signal
+m066,g066,rename risk,86,59,43,25,109,watch,edge,drag-penalty,drop-slack
+m067,g067,operator cost,116,66,47,66,242,ship,recovery,confidence-floor,raise-drag
+m068,g068,idempotence,91,32,40,78,210,ship,negative,lane-boundary,lower-confidence
+m069,g069,dry-run spread,91,17,41,65,165,watch,baseline,monotonic-signal,raise-signal
+m070,g070,rename risk,37,1,22,56,99,hold,edge,drag-penalty,drop-slack
+m071,g071,operator cost,62,47,42,99,201,ship,recovery,confidence-floor,raise-drag
+m072,g072,idempotence,78,67,43,69,189,watch,negative,lane-boundary,lower-confidence
+m073,g073,dry-run spread,54,45,7,78,281,ship,baseline,monotonic-signal,raise-signal
+m074,g074,rename risk,32,25,32,38,37,hold,edge,drag-penalty,drop-slack
+m075,g075,operator cost,73,34,32,65,182,watch,recovery,confidence-floor,raise-drag
+m076,g076,idempotence,97,71,44,27,143,watch,negative,lane-boundary,lower-confidence
+m077,g077,dry-run spread,122,57,34,75,315,ship,baseline,monotonic-signal,raise-signal
+m078,g078,rename risk,80,41,10,97,355,ship,edge,drag-penalty,drop-slack
+m079,g079,operator cost,67,17,48,81,121,watch,recovery,confidence-floor,raise-drag
+m080,g080,idempotence,108,37,37,53,211,ship,negative,lane-boundary,lower-confidence
+m081,g081,dry-run spread,53,50,16,63,218,ship,baseline,monotonic-signal,raise-signal
+m082,g082,rename risk,104,13,34,66,217,ship,edge,drag-penalty,drop-slack
+m083,g083,operator cost,93,9,24,72,243,ship,recovery,confidence-floor,raise-drag
+m084,g084,idempotence,47,8,10,24,110,watch,negative,lane-boundary,lower-confidence
+m085,g085,dry-run spread,81,45,29,24,139,watch,baseline,monotonic-signal,raise-signal
+m086,g086,rename risk,88,55,19,65,285,ship,edge,drag-penalty,drop-slack
+m087,g087,operator cost,99,44,23,90,330,ship,recovery,confidence-floor,raise-drag
+m088,g088,idempotence,64,71,37,51,153,watch,negative,lane-boundary,lower-confidence
+m089,g089,dry-run spread,59,52,28,55,168,watch,baseline,monotonic-signal,raise-signal
+m090,g090,rename risk,47,34,25,98,224,ship,edge,drag-penalty,drop-slack
+m091,g091,operator cost,49,44,32,81,176,watch,recovery,confidence-floor,raise-drag
+m092,g092,idempotence,53,46,26,64,176,watch,negative,lane-boundary,lower-confidence
+m093,g093,dry-run spread,112,49,7,37,319,ship,baseline,monotonic-signal,raise-signal
+m094,g094,rename risk,48,7,20,64,151,watch,edge,drag-penalty,drop-slack
+m095,g095,operator cost,63,75,35,39,139,watch,recovery,confidence-floor,raise-drag
+m096,g096,idempotence,74,71,34,61,205,ship,negative,lane-boundary,lower-confidence
