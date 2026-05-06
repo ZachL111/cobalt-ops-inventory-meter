@@ -1,0 +1,73 @@
+{
+  "repo": "cobalt-ops-inventory-meter",
+  "language": "JavaScript",
+  "category": "Automation",
+  "goal": "Develop a JavaScript command-oriented project for inventory scenarios with append-only fixtures, checkpoint recovery checks, and no production deployment claims.",
+  "review_model": {
+    "terms": [
+      "dry-run spread",
+      "rename risk",
+      "operator cost",
+      "idempotence"
+    ],
+    "lanes": [
+      "ship",
+      "watch",
+      "hold"
+    ],
+    "score": "signal * 2 + slack + confidence - drag * 3",
+    "purpose": "surface the domain-specific cases that need the most careful review"
+  },
+  "cases": [
+    {
+      "name": "baseline",
+      "focus": "dry-run spread",
+      "signal": 70,
+      "slack": 44,
+      "drag": 19,
+      "confidence": 54,
+      "score": 181,
+      "lane": "ship"
+    },
+    {
+      "name": "stress",
+      "focus": "rename risk",
+      "signal": 67,
+      "slack": 49,
+      "drag": 27,
+      "confidence": 84,
+      "score": 186,
+      "lane": "ship"
+    },
+    {
+      "name": "edge",
+      "focus": "operator cost",
+      "signal": 79,
+      "slack": 26,
+      "drag": 30,
+      "confidence": 67,
+      "score": 161,
+      "lane": "ship"
+    },
+    {
+      "name": "recovery",
+      "focus": "idempotence",
+      "signal": 83,
+      "slack": 24,
+      "drag": 22,
+      "confidence": 63,
+      "score": 187,
+      "lane": "ship"
+    },
+    {
+      "name": "stale",
+      "focus": "dry-run spread",
+      "signal": 61,
+      "slack": 29,
+      "drag": 10,
+      "confidence": 74,
+      "score": 195,
+      "lane": "ship"
+    }
+  ]
+}
